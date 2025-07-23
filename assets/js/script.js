@@ -50,3 +50,29 @@ window.addEventListener("DOMContentLoaded", showQuote);
 
 // Show new quote on button click
 newQuoteBtn.addEventListener("click", showQuote);
+
+// Theme toggle button
+const themeToggle = document.getElementById("theme-toggle");
+
+// Toggle dark mode
+themeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  // Update tooltip + icon
+  const isDark = document.body.classList.contains("dark-mode");
+  themeToggle.title = isDark ? "Switch to Light Mode" : "Switch to Dark Mode";
+  themeToggle.textContent = isDark ? "☀️" : "🌓";
+
+  // Optionally: Save preference
+  localStorage.setItem("preferred-theme", isDark ? "dark" : "light");
+});
+
+// On page load: apply saved preference
+window.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem("preferred-theme");
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+    themeToggle.textContent = "☀️";
+    themeToggle.title = "Switch to Light Mode";
+  }
+});
