@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 body {
-  font-family: 'Libre Baskerville', Georgia, serif;
+  font-family: Georgia, serif;
   background-color: #f5f3ef;
   color: #333;
   display: flex;
@@ -27,14 +27,16 @@ body {
 
 /* Heading styling */
 h1 {
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
-  color: #444;
-  font-weight: normal;
+  margin-bottom: 2.2rem;
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: bold;
 }
 
 /* Quote layout */
 #quote-box {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,12 +48,12 @@ h1 {
 
 /* Main quote text */
 #quote-text {
-  font-size: 1.4rem;
-  font-weight: normal;
-  color: #2a2a2a;
-  line-height: 1.6;
   margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
 }
+
 
 /* Author */
 #quote-author {
