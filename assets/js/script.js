@@ -1,4 +1,3 @@
-// List of public domain or freely attributed quotes
 const quotes = [
   { text: "Almost everything will work again if you unplug it for a few minutes, including you.", author: "Anne Lamott" },
   { text: "Keep taking time for yourself until you’re you again.", author: "Lalah Delia" },
@@ -22,52 +21,35 @@ const quotes = [
   { text: "One small positive thought in the morning can change your whole day.", author: "Dalai Lama" }
 ];
 
-// Get DOM elements
 const quoteText = document.getElementById("quote-text");
 const quoteAuthor = document.getElementById("quote-author");
 const newQuoteBtn = document.getElementById("new-quote");
+const themeToggle = document.getElementById("theme-toggle");
 
-// Display a random quote
+// Show a random quote
 function showQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   const quote = quotes[randomIndex];
 
-  // Remove and re-trigger animation
   const quoteBox = quoteText.parentElement;
   quoteBox.classList.remove("fade-in");
-  void quoteBox.offsetWidth; // Force reflow
+  void quoteBox.offsetWidth;
 
-  // Set new quote and author
   quoteText.textContent = quote.text;
   quoteAuthor.textContent = `– ${quote.author}`;
-
-  // Re-apply animation
   quoteBox.classList.add("fade-in");
 }
 
-// Show initial quote on page load
-window.addEventListener("DOMContentLoaded", showQuote);
-
-// Show new quote on button click
-newQuoteBtn.addEventListener("click", showQuote);
-
-// Theme toggle button
-const themeToggle = document.getElementById("theme-toggle");
-
-// Toggle dark mode
+// Handle theme toggle
 themeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
-
-  // Update tooltip + icon
   const isDark = document.body.classList.contains("dark-mode");
   themeToggle.title = isDark ? "Switch to Light Mode" : "Switch to Dark Mode";
   themeToggle.textContent = isDark ? "☀️" : "🌓";
-
-  // Optionally: Save preference
   localStorage.setItem("preferred-theme", isDark ? "dark" : "light");
 });
 
-// On page load: apply saved preference
+// Load saved theme on first load
 window.addEventListener("DOMContentLoaded", () => {
   const savedTheme = localStorage.getItem("preferred-theme");
   if (savedTheme === "dark") {
@@ -75,4 +57,7 @@ window.addEventListener("DOMContentLoaded", () => {
     themeToggle.textContent = "☀️";
     themeToggle.title = "Switch to Light Mode";
   }
+  showQuote();
 });
+
+newQuoteBtn.addEventListener("click", showQuote);

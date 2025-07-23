@@ -1,7 +1,9 @@
-/* Base page styling */
+/* Font for a paper-like, journal feel */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 body {
-  font-family: Georgia, serif;
-  background-color: #e8f0ef;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  background-color: #f5f3ef;
   color: #333;
   display: flex;
   justify-content: center;
@@ -11,45 +13,84 @@ body {
   padding: 1rem;
 }
 
-/* Main content container */
+/* Main quote container with paper feel */
 .container {
-  background: white;
+  background: #fffdf9;
   padding: 2rem;
-  border-radius: 20px;
-  max-width: 600px;
+  border-radius: 12px;
+  max-width: 620px;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e3dfd9;
+  position: relative;
 }
 
-/* App title */
+/* Heading styling */
 h1 {
-  margin-bottom: 1.5rem;
-  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #444;
+  font-weight: normal;
 }
 
-/* Quote box layout */
+/* Quote layout */
 #quote-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100px;
-  font-size: 1.2rem;
   margin-bottom: 1.5rem;
   text-align: center;
   transition: opacity 0.5s ease;
 }
 
-/* Quote text */
+/* Main quote text */
 #quote-text {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #2a2a2a;
+  line-height: 1.6;
   margin-bottom: 1rem;
 }
 
-/* Author text aligned to right */
+/* Author */
 #quote-author {
   align-self: flex-end;
   font-size: 1rem;
-  font-style: italic;
-  color: #555;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+/* Button styling */
+.primary-button {
+  background-color: #8aa5a0;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.primary-button:hover {
+  background-color: #6c8985;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #666;
+}
+
+.theme-toggle:hover {
+  color: #333;
 }
 
 /* Fade-in animation */
@@ -66,66 +107,39 @@ h1 {
   }
 }
 
-/* Button styling */
-.primary-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 0.6rem 1.2rem;
-  font-size: 1rem;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-.primary-button:hover {
-  background-color: #0056b3;
-}
-
-/* --- Theme Toggle Button --- */
-.theme-toggle {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: transparent;
-  border: none;
-  font-size: 1.3rem;
-  cursor: pointer;
-  color: #555;
-}
-
-.theme-toggle:hover {
-  color: #222;
-}
-
-/* --- Dark Mode Styles --- */
+/* === DARK MODE (matching calm aesthetic) === */
 body.dark-mode {
-  background: #121212;
-  color: #f0f0f0;
+  background-color: #1b1a17;
+  color: #e4dac8;
 }
 
 body.dark-mode .container {
-  background: #1f1f1f;
-  border: 1px solid #333;
+  background-color: #24221e;
+  border: 1px solid #393730;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
+body.dark-mode h1 {
+  color: #c8c0ae;
+}
+
 body.dark-mode #quote-text {
-  color: #f5f5f5;
+  color: #f0e6d2;
 }
 
 body.dark-mode #quote-author {
-  color: #aaa;
-}
-
-body.dark-mode h1 {
-  color: #ccc;
+  color: #a79c86;
 }
 
 body.dark-mode .primary-button {
-  background-color: #444;
+  background-color: #5d6b65;
+  color: #fefefe;
 }
 
 body.dark-mode .primary-button:hover {
-  background-color: #666;
+  background-color: #7c8c86;
+}
+
+body.dark-mode .theme-toggle {
+  color: #d2c8b5;
 }
