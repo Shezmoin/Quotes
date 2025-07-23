@@ -81,7 +81,7 @@ h1 {
 
 /* Theme toggle button */
 .theme-toggle {
-  position: absolute;
+  position: fixed;
   top: 1rem;
   right: 1rem;
   background: none;
@@ -89,6 +89,11 @@ h1 {
   font-size: 1.2rem;
   cursor: pointer;
   color: #666;
+  z-index: 1000;  /* ensures it stays on top */
+}
+
+.theme-toggle:hover {
+  color: #333;
 }
 
 .theme-toggle:hover {
