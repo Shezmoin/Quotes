@@ -107,9 +107,9 @@ h1 {
   animation: fadeInUp 0.5s forwards;
 }
 
-@keyframes fadeInUp {
+@keyframes fadeInDown {
   to {
-    opacity: 1;
+    opacity: 5;
     transform: translateY(0);
   }
 }
