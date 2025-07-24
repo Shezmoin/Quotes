@@ -1,3 +1,5 @@
+// This file contains an array of quotes to be displayed on the website.
+// All quotes are license free and can be used for any purpose.
 const quotes = [
   { text: "Almost everything will work again if you unplug it for a few minutes, including you.", author: "Anne Lamott" },
   { text: "Keep taking time for yourself until you’re you again.", author: "Lalah Delia" },
@@ -26,7 +28,7 @@ const quoteAuthor = document.getElementById("quote-author");
 const newQuoteBtn = document.getElementById("new-quote");
 const themeToggle = document.getElementById("theme-toggle");
 
-// Show a random quote
+// Use the function to show a random quote
 function showQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   const quote = quotes[randomIndex];
@@ -40,7 +42,7 @@ function showQuote() {
   quoteBox.classList.add("fade-in");
 }
 
-// Handle theme toggle
+// Handle theme toggle, switching between light and dark modes
 themeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   const isDark = document.body.classList.contains("dark-mode");

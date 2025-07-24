@@ -13,7 +13,7 @@ body {
   padding: 1rem;
 }
 
-/* Main quote container with paper feel */
+/* Main quote container using the paper feel theme */
 .container {
   background: #fffdf9;
   padding: 2rem;
@@ -33,7 +33,7 @@ h1 {
   font-weight: bold;
 }
 
-/* Quote layout */
+/* Quote layout giving a margin at the top */
 #quote-box {
   margin-top: 3.5rem;
   margin-bottom: 1.5rem;  
@@ -43,7 +43,7 @@ h1 {
   min-height: 100px;
   margin-bottom: 1.5rem;
   text-align: center;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease; /* smooth transition for fade-in effect */
 }
 
 /* Main quote text */
@@ -55,7 +55,7 @@ h1 {
 }
 
 
-/* Author */
+/* To make the Author show on the right-aligned */
 #quote-author {
   align-self: flex-end;
   font-size: 1rem;
@@ -72,11 +72,11 @@ h1 {
   font-size: 1rem;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: background 0.2s ease; /* smooth transition for hover effect where color changes slightly on hover */
 }
 
 .primary-button:hover {
-  background-color: #6c8985;
+  background-color: #6c8985; /* button color changes slightly on hover */
 }
 
 /* Theme toggle button */
@@ -114,7 +114,7 @@ h1 {
   }
 }
 
-/* === DARK MODE (matching calm aesthetic) === */
+/* === DARK MODE === */
 body.dark-mode {
   background-color: #1b1a17;
   color: #e4dac8;
