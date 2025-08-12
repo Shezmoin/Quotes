@@ -1,4 +1,4 @@
-/* Font for a paper-like, journal feel */
+/* Importing the font Libre Baskerville to give a paper-like journal feel to the app */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 body {
@@ -148,3 +148,15 @@ body.dark-mode .theme-toggle {
   color: #d2c8b5;
 }
 
+/* CSS styling for the Favorite button */
+.favorite-button {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #999; /* star outline color */
+  transition: color 0.3s ease; /* adding a transition for color change */
+}
