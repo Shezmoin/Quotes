@@ -1,10 +1,10 @@
 # Quotes
 
 Live Website
-View the live website here (add link) 
+View the live website here https://shezmoin.github.io/Quotes/ (add link) 
 
 Repository
-View the repository here (add link)
+View the repository here https://github.com/Shezmoin/Quotes.git (add link)
 
 
 User Experience
