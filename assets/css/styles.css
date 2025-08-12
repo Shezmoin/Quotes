@@ -33,7 +33,7 @@ h1 {
   font-weight: bold;
 }
 
-/* Quote layout giving a margin at the top */
+/* Adding a margin at the top */
 #quote-box {
   margin-top: 3.5rem;
   margin-bottom: 1.5rem;  
@@ -46,7 +46,7 @@ h1 {
   transition: opacity 0.5s ease; /* smooth transition for fade-in effect */
 }
 
-/* Main quote text */
+/* For the Main quote text */
 #quote-text {
   margin-bottom: 1rem;
   font-size: 1.2rem;
@@ -72,7 +72,7 @@ h1 {
   font-size: 1rem;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.2s ease; /* smooth transition for hover effect where color changes slightly on hover */
+  transition: background 0.2s ease; /* smooth transition for hover when the color changes slightly */
 }
 
 .primary-button:hover {
@@ -89,7 +89,7 @@ h1 {
   font-size: 1.2rem;
   cursor: pointer;
   color: #666;
-  z-index: 1000;  /* ensures it stays on top */
+  z-index: 1000;  /* make sure the button for this stays on top */
 }
 
 .theme-toggle:hover {
@@ -111,7 +111,7 @@ h1 {
   }
 }
 
-/* === DARK MODE === */
+/* DARK MODE for theme toggle */
 body.dark-mode {
   background-color: #1b1a17;
   color: #e4dac8;
@@ -147,3 +147,4 @@ body.dark-mode .primary-button:hover {
 body.dark-mode .theme-toggle {
   color: #d2c8b5;
 }
+
