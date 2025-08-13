@@ -22,7 +22,7 @@ body {
   text-align: center;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
   border: 1px solid #e3dfd9;
-  position: relative;
+  position: relative; /* position setting for the favorite button */
 }
 
 /* Heading styling */
@@ -36,14 +36,14 @@ h1 {
 /* Adding a margin at the top */
 #quote-box {
   margin-top: 3.5rem;
-  margin-bottom: 1.5rem;  
+  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100px;
   margin-bottom: 1.5rem;
   text-align: center;
-  transition: opacity 0.5s ease; /* smooth transition for fade-in effect */
+  transition: opacity 0.5s ease; /* transition for fade-in effect */
 }
 
 /* For the Main quote text */
@@ -63,7 +63,7 @@ h1 {
   margin-top: 0.5rem;
 }
 
-/* Button styling */
+/* CSS for the Button */
 .primary-button {
   background-color: #8aa5a0;
   color: white;
@@ -159,4 +159,14 @@ body.dark-mode .theme-toggle {
   cursor: pointer;
   color: #999; /* star outline color */
   transition: color 0.3s ease; /* adding a transition for color change */
+}
+
+.favorite-button:hover {
+  transform: scale(1.2);
+  color: goldenrod; /* star outline glows */
+}
+
+/* When the quote is favorited */
+.favorite-button.favorited {
+ color: gold;  /* The star lights up */
 }
