@@ -61,6 +61,33 @@ function showQuote() {
   favoriteBtn.title = isFavorited ? "Unfavorite this quote" : "Favorite this quote";
 }
 
+// Adding event listener for the favorite button
+favoriteBtn.addEventListener("click", () => {
+  const quote = quotes[currentQuoteIndex];
+
+  // Using arrays to check if the quote is already in favorites
+  const index = favorites.findIndex(
+    fav => fav.text === quote.text && fav.author === quote.author
+  );
+
+  if (index === -1) {
+    // Add to favorites
+    favorites.push(quote);
+  } else {
+    // Remove from favorites
+    favorites.splice(index, 1);
+  }
+
+  // Save to localStorage
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+
+  // Update button state
+  const isFavorited = index === -1;
+  favoriteBtn.textContent = isFavorited ? "✪" : "☆";
+  favoriteBtn.classList.toggle("favorited", isFavorited);
+  // Update tooltip for favorite button
+  favoriteBtn.title = isFavorited ? "Unfavorite this quote" : "Favorite this quote";
+});
 
 
 
