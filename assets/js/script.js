@@ -23,12 +23,14 @@ const quotes = [
   { text: "One small positive thought in the morning can change your whole day.", author: "Dalai Lama" }
 ];
 
-const quoteText = document.getElementById("quote-text");
+// Defining the elements that will be used to display the quotes, theme toggle, and favorite button
+const quoteText   = document.getElementById("quote-text");
 const quoteAuthor = document.getElementById("quote-author");
 const newQuoteBtn = document.getElementById("new-quote");
 const themeToggle = document.getElementById("theme-toggle");
+const favoriteBtn = document.getElementById("favorite-btn");
 
-// Use the function to show a random quote
+// This function is to show a random quote
 function showQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   const quote = quotes[randomIndex];
@@ -42,7 +44,7 @@ function showQuote() {
   quoteBox.classList.add("fade-in");
 }
 
-// Handle theme toggle, switching between light and dark modes
+// Handling the theme toggle of switching between light and dark modes
 themeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   const isDark = document.body.classList.contains("dark-mode");
@@ -51,7 +53,7 @@ themeToggle.addEventListener("click", () => {
   localStorage.setItem("preferred-theme", isDark ? "dark" : "light");
 });
 
-// Load saved theme on first load
+// Saving and setting the users preferred theme when they revisit the page
 window.addEventListener("DOMContentLoaded", () => {
   const savedTheme = localStorage.getItem("preferred-theme");
   if (savedTheme === "dark") {
