@@ -23,12 +23,19 @@ const quotes = [
   { text: "One small positive thought in the morning can change your whole day.", author: "Dalai Lama" }
 ];
 
-// Defining the elements that will be used to display the quotes, theme toggle, and favorite button
+// Defining elements that will be used to display the quotes, theme toggle, and favorite button
 const quoteText   = document.getElementById("quote-text");
 const quoteAuthor = document.getElementById("quote-author");
 const newQuoteBtn = document.getElementById("new-quote");
 const themeToggle = document.getElementById("theme-toggle");
 const favoriteBtn = document.getElementById("favorite-btn");
+
+// Setting the index for current quotes and favorites as empty
+let currentQuoteIndex = null;
+let favorites = JSON.parse(localStorage.getItem("favorites")) || []; // Checking and loading favorites from localStorage if they exist
+let viewingFavorites = false; // Creating a variable to check if the user is viewing a favorite quote
+let favoriteIndex = 0; // Setting this to find the index of the favorite quote
+
 
 // This function is to show a random quote
 function showQuote() {
@@ -42,7 +49,20 @@ function showQuote() {
   quoteText.textContent = quote.text;
   quoteAuthor.textContent = `– ${quote.author}`;
   quoteBox.classList.add("fade-in");
+
+  // Adding script for the favorite button
+  const isFavorited = favorites.some(
+    fav => fav.text === quote.text && fav.author === quote.author
+  );
+  // Checking if the quote is favorited and setting the button state
+  favoriteBtn.textContent = isFavorited ? "✪" : "☆";
+  favoriteBtn.classList.toggle("favorited", isFavorited);
+  // Tooltip for the favorite button
+  favoriteBtn.title = isFavorited ? "Unfavorite this quote" : "Favorite this quote";
 }
+
+
+
 
 // Handling the theme toggle of switching between light and dark modes
 themeToggle.addEventListener("click", () => {
