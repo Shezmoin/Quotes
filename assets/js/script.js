@@ -39,8 +39,8 @@ let favoriteIndex = 0; // Setting this to find the index of the favorite quote
 
 // This function is to show a random quote
 function showQuote() {
-  const randomIndex = Math.floor(Math.random() * quotes.length);
-  const quote = quotes[randomIndex];
+  currentQuoteIndex = Math.floor(Math.random() * quotes.length);
+  const quote = quotes[currentQuoteIndex];
 
   const quoteBox = quoteText.parentElement;
   quoteBox.classList.remove("fade-in");
@@ -64,7 +64,7 @@ function showQuote() {
 // Adding event listener for the favorite button
 favoriteBtn.addEventListener("click", () => {
   const quote = quotes[currentQuoteIndex];
-
+  
   // Using arrays to check if the quote is already in favorites
   const index = favorites.findIndex(
     fav => fav.text === quote.text && fav.author === quote.author
