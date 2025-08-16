@@ -122,7 +122,10 @@ Click on or copy the link into the browser, to view the deployed websited.
 Testing
 Code Validation
 W3C HTML Validator
+<img width="860" height="851" alt="Nu Html Checker" src="https://github.com/user-attachments/assets/8aae7b64-a99a-410e-8e85-1078a3fa9e55" />
+
 Index.html and CSS
+<img width="1718" height="713" alt="W3C CSS Validator" src="https://github.com/user-attachments/assets/29f2fdce-622e-4324-994f-483e456d5943" />
 
 Lighthouse
 Lighthouse Review Report for Index page, Desktop
