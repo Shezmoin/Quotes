@@ -1,4 +1,5 @@
 # Quotes
+<img width="538" height="383" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/d6564f65-9ead-446f-9dd2-ac048eaff40f" />
 
 Live Website
 View the live website here https://shezmoin.github.io/Quotes/ (add link) 
