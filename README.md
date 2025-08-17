@@ -230,5 +230,7 @@ https://stackoverflow.com/questions/73617133/how-would-i-store-user-theme-prefer
 
 My family, for supporting me throughout with my ill health, physical and mental incapabilities.
 
+My mentor for continously guiding me and encouraging me.
+
 My college tutors, for graciously accommodating my health needs.
 
