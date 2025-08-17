@@ -72,7 +72,8 @@ Text throughout the website is in Georgia, serif; font style. It is very easy on
 ### Colour Scheme
 The theme of this project is designed to evoke a sense of calm, reflection, and focus. Soft, off-white backgrounds #8aa5a0 with a soft blue-green #6c8985 for the button and in dark mode, deep brown-blacks #5d6b65 with olive-gray tone #7c8c86 for the button. 
 
-(COLOUR IMAGE HERE)
+![Colour Sheme](https://github.com/user-attachments/assets/89e40ff7-4cdd-4443-9037-720fc1c963e3)
+
 
 ### Page Layout
 My website has one page, featuring:
@@ -174,20 +175,20 @@ The deployment of this page is done using GitHub Pages, which can be located wit
 
 ## Testing
 
-## Code Validation:
+### Code Validation:
 
-### W3C HTML Validator
+#### W3C HTML Validator
 index.html:
 
 <img width="860" height="851" alt="Nu Html Checker" src="https://github.com/user-attachments/assets/87f4a7ad-d9a2-4b0b-98c1-449ea3381a62" />
 
-### W3C CSS Validator results
+#### W3C CSS Validator results
 Style.css
 
 <img width="1718" height="713" alt="W3C CSS Validator" src="https://github.com/user-attachments/assets/1029a909-c723-4946-a142-d4adaabe9c23" />
 
 
-## PageSpeed Insights:
+### PageSpeed Insights:
 
 #### Report for Home page - Desktop
 
@@ -202,13 +203,13 @@ Style.css
 
 The main page achieved high scores in Performance, Accessibility, Best Practices and SEO, on both desktop and mobile displays.
 
-## Browser Compatibility
+### Browser Compatibility
 
 The website has been tested in multiple browsers, including Google Chrome, Brave, Firefox and Microsoft Edge, all of which were compatible with the site. The website was also tested on Google Chrome and Safari on mobile devices, also seeing no issues.
 
-## Testing User Stories
+### Testing User Stories
 
-## Issues Resolved
+### Issues Resolved
 
 
 ![Issues - Image 1](https://github.com/user-attachments/assets/bf71862b-052a-47c7-a0f1-182f694ed7c8)
