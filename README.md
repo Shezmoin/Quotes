@@ -1,6 +1,6 @@
 # Quotes
 
-<img width="538" height="383" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/40fc2af3-f4b2-46d5-811b-ae3a57d77132" />
+<img width="270" height="190" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/40fc2af3-f4b2-46d5-811b-ae3a57d77132" />
 
 
 ## Live Website
