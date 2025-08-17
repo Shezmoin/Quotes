@@ -98,6 +98,7 @@ Wireframes are created through  https://wireframe.cc/
 
 ![Wireframe image 1](https://github.com/user-attachments/assets/5a9b834d-4ca0-45c6-bab8-c63085297bbc)
 
+<img width="270" height="190" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/5a9b834d-4ca0-45c6-bab8-c63085297bbc" />
 
 ![Wireframe image 2](https://github.com/user-attachments/assets/6db99e8b-145a-4289-9cc9-d6072a46d91c)
 
