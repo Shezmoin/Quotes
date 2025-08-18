@@ -53,15 +53,15 @@ Encourage self-reflection or mental well-being through positive quotes.
 * Enabling users to save their favourite quotes.
 
 ## User Stories
-##### User 1:
+##### User 1: Motivational Quote Generator
      As a visitor, I want to read a new inspirational quote each time I click a button so that I feel encouraged or uplifted.
-##### User 2:
+##### User 2: Focus‑First App Design
      As a user, I want the app to be calming and clean so that I can focus on the quote without distractions.
-##### User 3:
+##### User 3: Calm Night Display
      As a night-time user, I want to switch to dark mode so that the screen is easier on my eyes.
-##### User 4:
+##### User 4: Comforting Uplift Quotes
      As someone feeling low, I want to see quotes about self-care and resilience so that I feel less alone.
-##### User 5:
+##### User 5: Clear Text Readability
      As someone exploring inspirational content, I want the quote text to be easy to read so that I can absorb it clearly.
 
 ## Design Choices
@@ -210,7 +210,6 @@ The main page achieved high scores in Performance, Accessibility, Best Practices
 
 The website has been tested in multiple browsers, including Google Chrome, Brave, Firefox and Microsoft Edge, all of which were compatible with the site. The website was also tested on Google Chrome and Safari on mobile devices, also seeing no issues.
 
-### Testing User Stories
 
 ### Issues Resolved
 
