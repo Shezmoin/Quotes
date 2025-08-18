@@ -29,13 +29,11 @@ Encourage self-reflection or mental well-being through positive quotes.
 
 * Read quotes clearly with accessible fonts and spacing.
 
-* Return to the site and have their preferred theme and quote remembered.
-
 * Feel a small moment of mental health support or reflection.
 
 * Being able to save favorite quotes.
 
-* For returning users, experience of the app saving the preferred settings.
+* For returning users, experience the app with saved preferred settings for theme and quotes.
 
 ### Developer Goals
 
@@ -70,10 +68,9 @@ Encourage self-reflection or mental well-being through positive quotes.
 Text throughout the website is in Georgia, serif; font style. It is very easy on the eye, gives a calming effect and is very easy to read and looks great on any number of devices.
 
 ### Colour Scheme
-The theme of this project is designed to evoke a sense of calm, reflection, and focus. Soft, off-white backgrounds #8aa5a0 with a soft blue-green #6c8985 for the button and in dark mode, deep brown-blacks #5d6b65 with olive-gray tone #7c8c86 for the button. 
+The theme of this project is designed to evoke a sense of calm, reflection, and focus. Soft, off-white backgrounds #8aa5a0 with a soft blue-green #6c8985 for the button and in dark mode, deep brown-blacks #5d6b65 with olive-gray tone #7c8c86 for the button. Some of the main colours used are as below:
 
-![Colour Sheme](https://github.com/user-attachments/assets/89e40ff7-4cdd-4443-9037-720fc1c963e3)
-
+<img width="473" height="221" alt="Colours png" src="https://github.com/user-attachments/assets/dfa1b4cc-3653-4dd5-a543-391fdf35331c" />
 
 ### Page Layout
 My website has one page, featuring:
@@ -86,7 +83,7 @@ My website has one page, featuring:
 
 * A Theme Toggle Button to switch between light and dark mode with a tooltip.
 
-* Star button: “Favorite this quote”.
+* Star button: To favorite a quote.
 
 
 
@@ -95,13 +92,13 @@ My website has one page, featuring:
 ## Wireframes
 Wireframes are created through  https://wireframe.cc/
 
+### Desktop View
 
-![Wireframe image 1](https://github.com/user-attachments/assets/5a9b834d-4ca0-45c6-bab8-c63085297bbc)
+<img width="570" height="410" src="https://github.com/user-attachments/assets/5a9b834d-4ca0-45c6-bab8-c63085297bbc" />
 
-<img width="270" height="190" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/5a9b834d-4ca0-45c6-bab8-c63085297bbc" />
+### Mobile View
 
-![Wireframe image 2](https://github.com/user-attachments/assets/6db99e8b-145a-4289-9cc9-d6072a46d91c)
-
+<img width="250" height="525" src="https://github.com/user-attachments/assets/6db99e8b-145a-4289-9cc9-d6072a46d91c" />
 
 ## Features
 
@@ -152,9 +149,7 @@ Git commands were used within the IDE to track version control.
 
 Through the creation of the website, I used Chrome DevTools to troubleshoot and test the responsiveness of the website.
 
-## Wireframe
 
-I used Wireframe.cc to create my wireframes.
 
 ## Deployment
 This project was developed using Visual Studio Code IDE, committed to git and pushed to GitHub using the inbuilt functions of VSCode
@@ -188,17 +183,23 @@ Style.css
 
 <img width="1718" height="713" alt="W3C CSS Validator" src="https://github.com/user-attachments/assets/1029a909-c723-4946-a142-d4adaabe9c23" />
 
+#### Esprima Syntax Validator - JS
+
+<img width="832" height="518" alt="Esprima Syntax Validator" src="https://github.com/user-attachments/assets/88daa09b-59e0-4517-94d5-3e728f650128" />
+
 
 ### PageSpeed Insights:
 
 #### Report for Home page - Desktop
 
-<img width="1330" height="892" alt="PageSpeed Insight - Desktop" src="https://github.com/user-attachments/assets/ea412ad8-b89f-4de7-b710-c150cafa35ad" />
+<img width="661" height="789" alt="PageSpeed Insight - Desktop" src="https://github.com/user-attachments/assets/c3e43e8a-943a-4463-85f6-ba2926610449" />
+
+
 
 
 #### Report for Home page - Mobile 
 
-<img width="1331" height="888" alt="PageSpeed Insight - Mobile" src="https://github.com/user-attachments/assets/2ad4f944-9013-46c0-9126-30d44c0bf7cb" />
+<img width="661" height="789" alt="PageSpeed Insight - Mobile" src="https://github.com/user-attachments/assets/a63398c3-4231-406a-80e4-7a0b6e12b480" />
 
 
 
@@ -223,7 +224,7 @@ The website has been tested in multiple browsers, including Google Chrome, Brave
 
 ## References
 
-Light-dark mode Toggle:
+Took inspiration for theme toggle and the code from here:
 
 https://stackoverflow.com/questions/73617133/how-would-i-store-user-theme-preferences-across-multiple-pages
 
