@@ -152,7 +152,9 @@ Through the creation of the website, I used Chrome DevTools to troubleshoot and 
 
 
 
-## Deployment
+## Deployment & Local Deveplopment
+
+### Deployment
 This project was developed using Visual Studio Code IDE, committed to git and pushed to GitHub using the inbuilt functions of VSCode
 
 The deployment of this page is done using GitHub Pages, which can be located within the GitHub Repository: https://github.com/Shezmoin/Quotes.git
@@ -167,6 +169,26 @@ The deployment of this page is done using GitHub Pages, which can be located wit
 * Under source, select the main branch, the root folder and hit save.
 * After a small wait, the text 'Your site is published at https://shezmoin.github.io/Quotes/' will appear above 'Source'.
 * Click on or copy the link into the browser, to view the deployed website.
+
+### Local Development
+## How to Fork
+
+To fork the repository:
+
+    * Log in (or sign up) to Github.
+    * Go to the repository for this project, Shezmoin/Quotes.git
+    * Click the Fork button in the top right corner.
+
+## How to Clone
+
+To clone the repository:
+
+    * Log in (or sign up) to GitHub.
+    * Go to the repository for this project, Shezmoin/Quotes.git
+    * Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+    * Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+    * Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
 
 
 
