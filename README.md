@@ -171,7 +171,7 @@ The deployment of this page is done using GitHub Pages, which can be located wit
 * Click on or copy the link into the browser, to view the deployed website.
 
 ### Local Development
-## How to Fork
+#### How to Fork
 
 To fork the repository:
 
@@ -179,7 +179,7 @@ To fork the repository:
 * Go to the repository for this project, Shezmoin/Quotes.git
 * Click the Fork button in the top right corner.
 
-## How to Clone
+#### How to Clone
 
 To clone the repository:
 
