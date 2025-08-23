@@ -175,19 +175,19 @@ The deployment of this page is done using GitHub Pages, which can be located wit
 
 To fork the repository:
 
-    * Log in (or sign up) to Github.
-    * Go to the repository for this project, Shezmoin/Quotes.git
-    * Click the Fork button in the top right corner.
+* Log in (or sign up) to Github.
+* Go to the repository for this project, Shezmoin/Quotes.git
+* Click the Fork button in the top right corner.
 
 ## How to Clone
 
 To clone the repository:
 
-    * Log in (or sign up) to GitHub.
-    * Go to the repository for this project, Shezmoin/Quotes.git
-    * Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-    * Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-    * Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+* Log in (or sign up) to GitHub.
+* Go to the repository for this project, Shezmoin/Quotes.git
+* Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+* Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+* Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 
 
