@@ -105,11 +105,56 @@ Wireframes are created through  https://wireframe.cc/
 
 ### Existing features
 
-* The website is mobile friendly and responsive on all devices. 
+The app is mobile friendly and responsive on all devices. 
 
-* The website was designed with mobile devices in mind, making it fully responsive on all devices. 
+<img width="1358" height="679" alt="main" src="https://github.com/user-attachments/assets/11bd141b-b9a1-498e-ac32-c9f2ccf6b504" />
 
+The app was designed with mobile devices in mind, making it fully responsive on all devices.
+
+<img width="684" height="342" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/887f90d6-b7a5-466e-a870-28c4ee80ff92" />
+
+Main page displays "Todays's Inspirational Quote" clearly in the middle in the quote section.
+
+<img width="638" height="58" alt="TIQ" src="https://github.com/user-attachments/assets/ce5ab7c2-bf71-4057-9453-4835f3633000" />
+
+The quote is shown right below the main title.
+
+<img width="624" height="51" alt="Q" src="https://github.com/user-attachments/assets/2c8fc179-fc94-4338-928c-331fb9c6b574" />
+
+The author name is displayed below the quote on the bottom right corner. 
+
+<img width="159" height="26" alt="Author" src="https://github.com/user-attachments/assets/6d19d17c-59fd-46dc-855a-424299b58005" />
+
+The bottom of the quotr space shows the botton in light grey with clear wordings "Show Another Quote". 
+
+<img width="280" height="55" alt="show" src="https://github.com/user-attachments/assets/706d14a0-9d0d-4cec-bc2b-901bbf81ddcf" />
+
+Light / Dark mode toggle button is on the top right hand side corner on the main screen
+
+<img width="55" height="57" alt="Toggle" src="https://github.com/user-attachments/assets/653afa12-08ee-41ab-94f5-52a070628479" />
+
+To add a quote as favorite, the button is displayed on the right hand side bottom corner in the quote section.
+
+<img width="49" height="42" alt="gstar" src="https://github.com/user-attachments/assets/fc1cce38-3f25-45d8-889d-2426a7704994" />
+
+In dark mode the, the light / dark mode toggle botton displays a bright yellow sun image.
+
+<img width="49" height="51" alt="dmode" src="https://github.com/user-attachments/assets/f35dc39b-d72d-4757-bcfe-ef22fcad9b87" />
+
+
+
+| <img width="42" height="46" alt="fav" src="https://github.com/user-attachments/assets/35fb7990-087a-4799-a5bf-82892c75cbcf" />  | Once a quote is added to favorite, the button changes to a black circle with the golden star in the middle. |
+
+Day mode screen has a fadded white back ground with a clear white quote section in the middle.
+
+<img width="502" height="291" alt="daymode" src="https://github.com/user-attachments/assets/5a30ff19-494f-43db-9c4f-d7218c14284d" />
+
+Dark mode screen has a dark black back ground with a lighter black quote section in the middle. 
+<img width="502" height="291" alt="darkmode" src="https://github.com/user-attachments/assets/6aeadb09-95eb-4faf-8077-292fd70fdaf6" />
+
+  
 * Fully functional buttons
+
 
 ### Features to possibly implement
 
@@ -193,6 +238,53 @@ To clone the repository:
 
 
 ## Testing
+
+## MANUAL TESTING
+
+### Testing User Stories
+
+`First Time Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+
+
+`Returning Visitors`
+
+|  Goals | How are they achieved? |
+| :--- | :--- |
+
+
+`Frequent Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+
+- - -
+
+### Full Testing
+
+Full testing was performed on the following devices:
+
+* Laptop:
+  * Macbook Pro 2021 14 inch screen
+* Mobile Devices:
+  * iPhone 16.
+  * iPhone 14.
+  * Phone X.
+
+Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
+* Firefox
+
+Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when playing.
+
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+
 
 ### Code Validation:
 
