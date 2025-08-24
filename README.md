@@ -132,14 +132,14 @@ The bottom of the quotr space shows the botton in light grey with clear wordings
 
 <img width="180" height="35" alt="show" src="https://github.com/user-attachments/assets/706d14a0-9d0d-4cec-bc2b-901bbf81ddcf" />
 
-🌓 Light / Dark mode toggle button is on the top right hand side corner on the main screen |
+🌓 Light / Dark mode toggle button is on the top right hand side corner on the main screen 
 
 <img width="18" height="18" alt="Graystar" src="https://github.com/user-attachments/assets/afbc4603-1a57-431b-8a37-dc45961a3184" />
  To add a quote as favorite, the button is displayed on the right hand side bottom corner in the quote section.
 
 ☀️ In dark mode, the light / dark mode toggle botton displays a bright yellow sun image.
 
-<img width="18" height="18" alt="Goldstar" src="https://github.com/user-attachments/assets/a92e9c38-ce40-489f-aefb-dedb96b92374" /> Once a quote is added to favorite, the button changes to a black circle with the golden star in the middle. |
+<img width="18" height="18" alt="Goldstar" src="https://github.com/user-attachments/assets/a92e9c38-ce40-489f-aefb-dedb96b92374" /> Once a quote is added to favorite, the button changes to a black circle with the golden star in the middle. 
 
 <img width="18" height="18" alt="Goldstar-daymode" src="https://github.com/user-attachments/assets/1914cf08-dcab-4609-930d-721664ec5d43" />
 <img width="18" height="18" alt="Highlighted Gildstar frame - daymode" src="https://github.com/user-attachments/assets/da3452ad-5c45-4634-835c-1ed37b98412f" />
@@ -199,7 +199,7 @@ Through the creation of the website, I used Chrome DevTools to troubleshoot and 
 
 ## Testing
 
-Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
+Please refer to [testing.md](testing.md) file for all testing carried out.
 
 ## Deployment & Local Deveplopment
 
