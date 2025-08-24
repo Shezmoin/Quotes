@@ -69,7 +69,7 @@ Encourage self-reflection or mental well-being through positive quotes.
 Text throughout the website is in Georgia, serif; font style. It is very easy on the eye, gives a calming effect and is very easy to read and looks great on any number of devices.
 
 ### Colour Scheme
-The theme of this project is designed to evoke a sense of calm, reflection, and focus. Soft, off-white backgrounds #8aa5a0 with a soft blue-green #6c8985 for the button and in dark mode, deep brown-blacks #5d6b65 with olive-gray tone #7c8c86 for the button. Some of the main colours used are as below:
+The theme of this project is designed to evoke a sense of calm, reflection, and focus. Soft, off-white backgrounds #8aa5a0 with a soft blue-green #6c8985 for the button and in dark mode, deep brown-blacks #5d6b65 with olive-grey tone #7c8c86 for the button. Some of the main colours used are as below:
 
 <img width="473" height="221" alt="Colours png" src="https://github.com/user-attachments/assets/dfa1b4cc-3653-4dd5-a543-391fdf35331c" />
 
@@ -78,7 +78,7 @@ My website has one page, featuring:
 
 * Heading: "Today's Inspirational Quote" in a classic serif font.
 
-* Quote Box: Centered quote text with the author right-aligned below.
+* Quote Box: Centred quote text with the author right-aligned below.
 
 * Button: “Show Another Quote” to display a new random quote.
 
@@ -117,7 +117,7 @@ Day mode screen has a faded white background with a clear white quote section in
 
 <img width="502" height="291" alt="daymode" src="https://github.com/user-attachments/assets/5a30ff19-494f-43db-9c4f-d7218c14284d" />
 
-Dark mode screen has a dark black back ground with a lighter black quote section in the middle. 
+Dark mode screen has a dark black background with a lighter black quote section in the middle. 
 
 <img width="502" height="291" alt="darkmode" src="https://github.com/user-attachments/assets/6aeadb09-95eb-4faf-8077-292fd70fdaf6" />
 
@@ -125,10 +125,10 @@ Main page displays "Today's Inspirational Quote" clearly in the middle in the qu
 
 The quote is shown right below the main title.  <img width="350" height="18" alt="Q" src="https://github.com/user-attachments/assets/651db1fc-34aa-4448-b477-1cfb7d42c970" />
 
-The author name is displayed below the quote on the bottom right corner. <img width="75" height="15" alt="Author" src="https://github.com/user-attachments/assets/7050197a-c175-4ebf-9041-8346dfe3e590" />
+The authors name is displayed below the quote on the bottom right corner. <img width="75" height="15" alt="Author" src="https://github.com/user-attachments/assets/7050197a-c175-4ebf-9041-8346dfe3e590" />
 
 
-The bottom of the quote space shows the botton in light grey with clear wordings "Show Another Quote". <img width="135" height="26" alt="show" src="https://github.com/user-attachments/assets/706d14a0-9d0d-4cec-bc2b-901bbf81ddcf" />
+The bottom of the quote space shows the button in light grey with clear wordings "Show Another Quote". <img width="135" height="26" alt="show" src="https://github.com/user-attachments/assets/706d14a0-9d0d-4cec-bc2b-901bbf81ddcf" />
 
 🌓 Light / Dark mode toggle button is on the top right hand side corner on the main screen 
 
@@ -155,13 +155,13 @@ The bottom of the quote space shows the botton in light grey with clear wordings
 ### Languages
 * HTML5
 * CSS3
-* Javascript
+* JavaScript
 
 ### Libraries/Frameworks
 
 ('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap')
 
-The above theme was used to give the website the calm soothing feel
+The above theme was used to give the website the calm soothing feel.
 
 ### Google Fonts
 
@@ -190,14 +190,14 @@ Please refer to [testing.md](testing/testing.md) file for all testing carried ou
 ## Deployment & Local Development
 
 ### Deployment
-This project was developed using Visual Studio Code IDE, committed to git and pushed to GitHub using the inbuilt functions of VSCode
+This project was developed using Visual Studio Code IDE, committed to git and pushed to GitHub using the inbuilt functions of VSCode.
 
 The deployment of this page is done using GitHub Pages, which can be located within the GitHub Repository: https://github.com/Shezmoin/Quotes.git
 
 ### Here are the steps taken to deploy the website:
 
 * Navigate to GitHub and log in.
-* Click on the profile image at the top right of the page, and select 'Your repositories'.
+* Click on the profile image at the top right of the page and select 'Your repositories'.
 * Select shezmoin/Quotes.
 * Locate and click on 'Settings'.
 * Click 'Pages' on the side navigation bar.
@@ -238,7 +238,7 @@ https://stackoverflow.com/questions/73617133/how-would-i-store-user-theme-prefer
 
 My family, for supporting me throughout with my ill health, physical and mental incapabilities.
 
-My mentor for continously guiding me and encouraging me.
+My mentor for continuously guiding me and encouraging me.
 
 My college tutors, for graciously accommodating my health needs.
 
