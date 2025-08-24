@@ -1,6 +1,6 @@
 ## Testing
 
-## MANUAL TESTING
+### MANUAL TESTING
 
 
 ### Full Testing
@@ -8,11 +8,11 @@
 Full testing was performed on the following devices:
 
 * Laptop:
-  * Macbook Pro 2021 14 inch screen
+  * Macbook Air 13-inch
 * Mobile Devices:
   * iPhone 16.
-  * iPhone 14.
-  * Phone X.
+  * iPhone 15 (Pro).
+  * Pixel 10 Pro
 
 Each device tested the site using the following browsers:
 
@@ -51,8 +51,6 @@ Style.css
 <img width="661" height="789" alt="PageSpeed Insight - Desktop" src="https://github.com/user-attachments/assets/c3e43e8a-943a-4463-85f6-ba2926610449" />
 
 
-
-
 #### Report for Home page - Mobile 
 
 <img width="661" height="789" alt="PageSpeed Insight - Mobile" src="https://github.com/user-attachments/assets/a63398c3-4231-406a-80e4-7a0b6e12b480" />
@@ -76,3 +74,4 @@ The website has been tested in multiple browsers, including Google Chrome, Brave
 
 
 ![Issues Image 3](https://github.com/user-attachments/assets/5e5fb94d-380c-4d8f-8eab-6b8557232466)
+
