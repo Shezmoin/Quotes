@@ -113,13 +113,16 @@ The app was designed with mobile devices in mind, making it fully responsive on 
 
 <img width="684" height="342" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/887f90d6-b7a5-466e-a870-28c4ee80ff92" />
 
+  
+
+
 Main page displays "Todays's Inspirational Quote" clearly in the middle in the quote section.
 
-<img width="638" height="58" alt="TIQ" src="https://github.com/user-attachments/assets/ce5ab7c2-bf71-4057-9453-4835f3633000" />
+<img width="478" height="43.5" alt="TIQ" src="https://github.com/user-attachments/assets/ce5ab7c2-bf71-4057-9453-4835f3633000" />
 
 The quote is shown right below the main title.
 
-<img width="624" height="51" alt="Q" src="https://github.com/user-attachments/assets/2c8fc179-fc94-4338-928c-331fb9c6b574" />
+<img width="424" height="51" alt="Q" src="https://github.com/user-attachments/assets/2c8fc179-fc94-4338-928c-331fb9c6b574" />
 
 The author name is displayed below the quote on the bottom right corner. 
 
@@ -127,23 +130,22 @@ The author name is displayed below the quote on the bottom right corner.
 
 The bottom of the quotr space shows the botton in light grey with clear wordings "Show Another Quote". 
 
-<img width="280" height="55" alt="show" src="https://github.com/user-attachments/assets/706d14a0-9d0d-4cec-bc2b-901bbf81ddcf" />
+<img width="180" height="35" alt="show" src="https://github.com/user-attachments/assets/706d14a0-9d0d-4cec-bc2b-901bbf81ddcf" />
 
-Light / Dark mode toggle button is on the top right hand side corner on the main screen
+🌓 Light / Dark mode toggle button is on the top right hand side corner on the main screen |
 
-<img width="55" height="57" alt="Toggle" src="https://github.com/user-attachments/assets/653afa12-08ee-41ab-94f5-52a070628479" />
+<img width="18" height="18" alt="Graystar" src="https://github.com/user-attachments/assets/afbc4603-1a57-431b-8a37-dc45961a3184" />
+ To add a quote as favorite, the button is displayed on the right hand side bottom corner in the quote section.
 
-To add a quote as favorite, the button is displayed on the right hand side bottom corner in the quote section.
+☀️ In dark mode, the light / dark mode toggle botton displays a bright yellow sun image.
 
-<img width="49" height="42" alt="gstar" src="https://github.com/user-attachments/assets/fc1cce38-3f25-45d8-889d-2426a7704994" />
+<img width="18" height="18" alt="Goldstar" src="https://github.com/user-attachments/assets/a92e9c38-ce40-489f-aefb-dedb96b92374" /> Once a quote is added to favorite, the button changes to a black circle with the golden star in the middle. |
 
-In dark mode the, the light / dark mode toggle botton displays a bright yellow sun image.
+<img width="18" height="18" alt="Goldstar-daymode" src="https://github.com/user-attachments/assets/1914cf08-dcab-4609-930d-721664ec5d43" />
+<img width="18" height="18" alt="Highlighted Gildstar frame - daymode" src="https://github.com/user-attachments/assets/da3452ad-5c45-4634-835c-1ed37b98412f" />
 
-<img width="49" height="51" alt="dmode" src="https://github.com/user-attachments/assets/f35dc39b-d72d-4757-bcfe-ef22fcad9b87" />
+<img width="18" height="18" alt="Highlighted Goldstar frame" src="https://github.com/user-attachments/assets/5ec13a20-16b1-4d2b-84b1-095e6aacc4b0" />
 
-
-
-| <img width="42" height="46" alt="fav" src="https://github.com/user-attachments/assets/35fb7990-087a-4799-a5bf-82892c75cbcf" />  | Once a quote is added to favorite, the button changes to a black circle with the golden star in the middle. |
 
 Day mode screen has a fadded white back ground with a clear white quote section in the middle.
 
@@ -195,7 +197,9 @@ Git commands were used within the IDE to track version control.
 
 Through the creation of the website, I used Chrome DevTools to troubleshoot and test the responsiveness of the website.
 
+## Testing
 
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ## Deployment & Local Deveplopment
 
