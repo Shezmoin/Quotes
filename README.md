@@ -113,7 +113,7 @@ The app was designed with mobile devices in mind, making it fully responsive on 
 
 <img width="684" height="342" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/887f90d6-b7a5-466e-a870-28c4ee80ff92" />
 
-Day mode screen has a fadded white background with a clear white quote section in the middle.
+Day mode screen has a faded white background with a clear white quote section in the middle.
 
 <img width="502" height="291" alt="daymode" src="https://github.com/user-attachments/assets/5a30ff19-494f-43db-9c4f-d7218c14284d" />
 
