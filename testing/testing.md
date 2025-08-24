@@ -2,10 +2,7 @@
 
 ### Manual Testing - User Experience 
 
-
-### Full Testing
-
-Full testing was performed on the following devices:
+Testing was performed on the following devices:
 
 * Laptop:
   * Macbook Air 13-inch
@@ -32,14 +29,6 @@ Additional testing was taken by friends and family on a variety of devices and s
 | "Favorite this quote" button responsive | The botton border should highlight | Hover on button | Image borders turns golden | Pass |
 | Theme toggle button responsive | The button should show image of day or dark mode | Clicked on the button | The botton image changes accordingly | Pass |
 | Favorite button responsive | The button colour should change one clicked | Clicked on button to add quote to favorite | Color changes when added or removed quote from favorite | Pass |
-
-
-
-
-
-
-
-
 
 
 ### Automatic Testing - Code Validation:
@@ -83,5 +72,6 @@ The website has been tested in multiple browsers, including Google Chrome, Brave
 
 
 ![Issues Image 3](https://github.com/user-attachments/assets/5e5fb94d-380c-4d8f-8eab-6b8557232466)
+
 
 
