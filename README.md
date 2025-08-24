@@ -211,7 +211,7 @@ The deployment of this page is done using GitHub Pages, which can be located wit
 To fork the repository:
 
 * Log in (or sign up) to Github.
-* Go to the repository for this project, Shezmoin/Quotes.git](https://github.com/Shezmoin/Quotes.git)
+* Go to the repository for this project, [Shezmoin/Quotes.git](https://github.com/Shezmoin/Quotes.git)
 * Click the Fork button in the top right corner.
 
 #### How to Clone
