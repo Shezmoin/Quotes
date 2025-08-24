@@ -1,6 +1,6 @@
 # Quotes
 
-<img width="270" height="190" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/40fc2af3-f4b2-46d5-811b-ae3a57d77132" />
+<img width="337.5" height="237.5" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/40fc2af3-f4b2-46d5-811b-ae3a57d77132" />
 
 Welcome to Quotes - your daily sanctuary of thoughtful inspiration. Each click, this app shares a carefully curated quote designed to remind you that you're not alone, even in quiet moments, and that every day carries a spark of hope. Explore messages crafted to uplift your spirit, nurture your motivation, and gently support your journey toward well-being.
 
@@ -113,50 +113,36 @@ The app was designed with mobile devices in mind, making it fully responsive on 
 
 <img width="684" height="342" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/887f90d6-b7a5-466e-a870-28c4ee80ff92" />
 
-  
-
-
-Main page displays "Todays's Inspirational Quote" clearly in the middle in the quote section.
-
-<img width="478" height="43.5" alt="TIQ" src="https://github.com/user-attachments/assets/ce5ab7c2-bf71-4057-9453-4835f3633000" />
-
-The quote is shown right below the main title.
-
-<img width="424" height="51" alt="Q" src="https://github.com/user-attachments/assets/2c8fc179-fc94-4338-928c-331fb9c6b574" />
-
-The author name is displayed below the quote on the bottom right corner. 
-
-<img width="159" height="26" alt="Author" src="https://github.com/user-attachments/assets/6d19d17c-59fd-46dc-855a-424299b58005" />
-
-The bottom of the quotr space shows the botton in light grey with clear wordings "Show Another Quote". 
-
-<img width="180" height="35" alt="show" src="https://github.com/user-attachments/assets/706d14a0-9d0d-4cec-bc2b-901bbf81ddcf" />
-
-🌓 Light / Dark mode toggle button is on the top right hand side corner on the main screen 
-
-<img width="18" height="18" alt="Graystar" src="https://github.com/user-attachments/assets/afbc4603-1a57-431b-8a37-dc45961a3184" />
- To add a quote as favorite, the button is displayed on the right hand side bottom corner in the quote section.
-
-☀️ In dark mode, the light / dark mode toggle botton displays a bright yellow sun image.
-
-<img width="18" height="18" alt="Goldstar" src="https://github.com/user-attachments/assets/a92e9c38-ce40-489f-aefb-dedb96b92374" /> Once a quote is added to favorite, the button changes to a black circle with the golden star in the middle. 
-
-<img width="18" height="18" alt="Goldstar-daymode" src="https://github.com/user-attachments/assets/1914cf08-dcab-4609-930d-721664ec5d43" />
-<img width="18" height="18" alt="Highlighted Gildstar frame - daymode" src="https://github.com/user-attachments/assets/da3452ad-5c45-4634-835c-1ed37b98412f" />
-
-<img width="18" height="18" alt="Highlighted Goldstar frame" src="https://github.com/user-attachments/assets/5ec13a20-16b1-4d2b-84b1-095e6aacc4b0" />
-
-
-Day mode screen has a fadded white back ground with a clear white quote section in the middle.
+Day mode screen has a fadded white background with a clear white quote section in the middle.
 
 <img width="502" height="291" alt="daymode" src="https://github.com/user-attachments/assets/5a30ff19-494f-43db-9c4f-d7218c14284d" />
 
 Dark mode screen has a dark black back ground with a lighter black quote section in the middle. 
+
 <img width="502" height="291" alt="darkmode" src="https://github.com/user-attachments/assets/6aeadb09-95eb-4faf-8077-292fd70fdaf6" />
 
-  
-* Fully functional buttons
+Main page displays "Todays's Inspirational Quote" clearly in the middle in the quote section. <img width="311" height="28" alt="TIQ" src="https://github.com/user-attachments/assets/49b2e38e-7341-4796-a9be-171d591f9bb4" />
 
+The quote is shown right below the main title.  <img width="350" height="18" alt="Q" src="https://github.com/user-attachments/assets/651db1fc-34aa-4448-b477-1cfb7d42c970" />
+
+The author name is displayed below the quote on the bottom right corner. <img width="75" height="15" alt="Author" src="https://github.com/user-attachments/assets/7050197a-c175-4ebf-9041-8346dfe3e590" />
+
+
+The bottom of the quote space shows the botton in light grey with clear wordings "Show Another Quote". <img width="135" height="26" alt="show" src="https://github.com/user-attachments/assets/706d14a0-9d0d-4cec-bc2b-901bbf81ddcf" />
+
+🌓 Light / Dark mode toggle button is on the top right hand side corner on the main screen 
+
+☀️ In dark mode, the light / dark mode toggle button displays a bright yellow sun image.
+
+<img width="18" height="18" alt="Highlighted Gildstar frame - daymode" src="https://github.com/user-attachments/assets/da3452ad-5c45-4634-835c-1ed37b98412f" /> In day mode, hovering over the "Favorite this Quote" button, the star border turns golden.
+
+<img width="16" height="16" alt="Highlighted Goldstar frame" src="https://github.com/user-attachments/assets/5ec13a20-16b1-4d2b-84b1-095e6aacc4b0" /> In dark mode, hovering over the "Favorite this Quote" button, the star border turns golden.
+
+<img width="18" height="18" alt="Graystar" src="https://github.com/user-attachments/assets/afbc4603-1a57-431b-8a37-dc45961a3184" /> To add a quote as favorite, the button is displayed on the right-hand side bottom corner in the quote section.
+ 
+<img width="16" height="16" alt="Goldstar" src="https://github.com/user-attachments/assets/a92e9c38-ce40-489f-aefb-dedb96b92374" /> In dark mode, when a quote is added to favorite, the button changes to a golden circle with a black star in the middle. 
+
+<img width="18" height="18" alt="Goldstar-daymode" src="https://github.com/user-attachments/assets/1914cf08-dcab-4609-930d-721664ec5d43" /> In day mode, when a quote is added to favorite, the button changes to a golden circle with a white star in the middle. 
 
 ### Features to possibly implement
 
