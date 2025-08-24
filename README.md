@@ -2,7 +2,7 @@
 
 <img width="337.5" height="237.5" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/40fc2af3-f4b2-46d5-811b-ae3a57d77132" />
 
-Welcome to Quotes - your daily sanctuary of thoughtful inspiration. Each click, this app shares a carefully curated quote designed to remind you that you're not alone, even in quiet moments, and that every day carries a spark of hope. Explore messages crafted to uplift your spirit, nurture your motivation, and gently support your journey toward well-being.
+Welcome to Quotes - your daily sanctuary of thoughtful inspiration. With each click, this app shares a carefully curated quote designed to remind you that you're not alone, even in quiet moments, and that every day carries a spark of hope. Explore messages crafted to uplift your spirit, nurture your motivation, and gently support your journey toward well-being.
 
 ## Live Website
 
