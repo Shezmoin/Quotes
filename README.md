@@ -199,7 +199,7 @@ Through the creation of the website, I used Chrome DevTools to troubleshoot and 
 
 ## Testing
 
-Please refer to [testing.md](testing.md) file for all testing carried out.
+Please refer to [testing.md](testing/testing.md) file for all testing carried out.
 
 ## Deployment & Local Deveplopment
 
