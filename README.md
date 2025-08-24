@@ -50,7 +50,7 @@ Encourage self-reflection or mental well-being through positive quotes.
 
 * Use license free and freely attributed quotes.
 
-* Enabling users to save their favourite quotes.
+* Enabling users to save their favorite quotes.
 
 ## User Stories
 ##### User 1: Motivational Quote Generator
@@ -59,7 +59,7 @@ Encourage self-reflection or mental well-being through positive quotes.
      As a user, I want the app to be calming and clean so that I can focus on the quote without distractions.
 ##### User 3: Calm Night Display
      As a night-time user, I want to switch to dark mode so that the screen is easier on my eyes.
-##### User 4: Comforting Uplift Quotes
+##### User 4: Comforting Uplifting Quotes
      As someone feeling low, I want to see quotes about self-care and resilience so that I feel less alone.
 ##### User 5: Clear Text Readability
      As someone exploring inspirational content, I want the quote text to be easy to read so that I can absorb it clearly.
@@ -109,7 +109,7 @@ The app is mobile friendly and responsive on all devices.
 
 <img width="1358" height="679" alt="main" src="https://github.com/user-attachments/assets/11bd141b-b9a1-498e-ac32-c9f2ccf6b504" />
 
-The app was designed with mobile devices in mind, making it fully responsive on all devices.
+The app is designed with mobile devices in mind, making it fully responsive on all devices.
 
 <img width="684" height="342" alt="Today's Inspirational Quote" src="https://github.com/user-attachments/assets/887f90d6-b7a5-466e-a870-28c4ee80ff92" />
 
@@ -121,7 +121,7 @@ Dark mode screen has a dark black back ground with a lighter black quote section
 
 <img width="502" height="291" alt="darkmode" src="https://github.com/user-attachments/assets/6aeadb09-95eb-4faf-8077-292fd70fdaf6" />
 
-Main page displays "Todays's Inspirational Quote" clearly in the middle in the quote section. <img width="311" height="28" alt="TIQ" src="https://github.com/user-attachments/assets/49b2e38e-7341-4796-a9be-171d591f9bb4" />
+Main page displays "Today's Inspirational Quote" clearly in the middle in the quote section. <img width="311" height="28" alt="TIQ" src="https://github.com/user-attachments/assets/49b2e38e-7341-4796-a9be-171d591f9bb4" />
 
 The quote is shown right below the main title.  <img width="350" height="18" alt="Q" src="https://github.com/user-attachments/assets/651db1fc-34aa-4448-b477-1cfb7d42c970" />
 
@@ -159,13 +159,13 @@ The bottom of the quote space shows the botton in light grey with clear wordings
 
 ### Libraries/Frameworks
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap')
+('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap')
 
 The above theme was used to give the website the calm soothing feel
 
 ### Google Fonts
 
-I used the google font 'Georgia, serif' throughout the entire website.
+Google font 'Georgia, serif' throughout the entire website.
 
 ### VScode
 
@@ -187,7 +187,7 @@ Through the creation of the website, I used Chrome DevTools to troubleshoot and 
 
 Please refer to [testing.md](testing/testing.md) file for all testing carried out.
 
-## Deployment & Local Deveplopment
+## Deployment & Local Development
 
 ### Deployment
 This project was developed using Visual Studio Code IDE, committed to git and pushed to GitHub using the inbuilt functions of VSCode
@@ -211,7 +211,7 @@ The deployment of this page is done using GitHub Pages, which can be located wit
 To fork the repository:
 
 * Log in (or sign up) to Github.
-* Go to the repository for this project, Shezmoin/Quotes.git
+* Go to the repository for this project, Shezmoin/Quotes.git](https://github.com/Shezmoin/Quotes.git)
 * Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -219,7 +219,7 @@ To fork the repository:
 To clone the repository:
 
 * Log in (or sign up) to GitHub.
-* Go to the repository for this project, Shezmoin/Quotes.git
+* Go to the repository for this project, [Shezmoin/Quotes.git](https://github.com/Shezmoin/Quotes.git)
 * Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 * Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 * Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -230,7 +230,7 @@ To clone the repository:
 
 ## References
 
-Took inspiration for theme toggle and the code from here:
+Inspiration for theme toggle and the code was taken from here:
 
 https://stackoverflow.com/questions/73617133/how-would-i-store-user-theme-preferences-across-multiple-pages
 
